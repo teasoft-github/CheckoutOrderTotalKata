@@ -16,13 +16,6 @@ Another option is to import the gradle project into a Java IDE such as Eclipse o
 - Test cases don't provide full code coverage for all the logic in the business logic.
 - Double was used to represent prices, quantities, and counts. A better solution might use fixed-point math (price in terms of cents expressed as integer, quantities and counts with resolution) to avoid issues related to the inability of double to express certain exact fractions.
 
-## Disclosure
-I spent time reading and learning about test-driven development. I watched parts of two courses on LinkedIn Learning. One course implemented a similar problem (point of sale system that calculates pre-tax total) in C++ (https://www.linkedin.com/learning/test-driven-development-in-c-plus-plus/overview-setup-and-the-first-test-case?autoplay=true). I decided to continue with this kata because:
-- I chose this kata and started to work it before I saw the course.
-- The course didn't solve this kata, but it did gave me pointers.
-- This kata is more complicated and has more use cases than the kata described in the course.
-- My solution is more generic than the course's solution in regards to the various specials.
-
 ## Problem
 You have been contracted to write part of a grocery point-of-sale system. Your job is to implement the business logic to calculate the pre-tax total price as items are scanned or entered at checkout.
 
